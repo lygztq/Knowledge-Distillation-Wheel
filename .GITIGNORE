@@ -1,0 +1,9 @@
+# pyc files
+*.pyc
+
+# __init__.py
+!__init__.py
+
+# datasets
+/data/cifar10/cifar-10-batches-py/
+/data/cifar100/cifar-100-python/

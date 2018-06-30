@@ -1,6 +1,6 @@
 from data_utils.DataManager import DataManager
 
 
-if __name__ == "__main__":
-    d = DataManager('CIFAR-100', path='../data')
+def data_manager_test():
+    d = DataManager('CIFAR-10', path='./data')
     print(d.train_data.shape, d.train_label.shape)
