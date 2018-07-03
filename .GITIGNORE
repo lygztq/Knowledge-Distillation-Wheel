@@ -7,3 +7,18 @@
 # datasets
 /data/cifar10/cifar-10-batches-py/
 /data/cifar100/cifar-100-python/
+/data/MNIST/*
+!/data/MNIST/get_MNIST.sh
+
+# development files
+dev_*
+
+# vscode files
+/.vscode/
+
+# model checkpoints
+*.ckpt*
+checkpoint
+
+# records
+/records/

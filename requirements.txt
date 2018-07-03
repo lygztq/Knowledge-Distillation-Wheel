@@ -1,0 +1,5 @@
+tensorflow-gpu==1.7
+numpy
+six
+scipy
+matplotlib
